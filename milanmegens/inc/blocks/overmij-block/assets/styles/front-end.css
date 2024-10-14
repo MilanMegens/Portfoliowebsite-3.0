@@ -1,0 +1,19 @@
+.overmij h1 { font-size: 30px; font-weight: bold; border-bottom: 2px solid #000; width: fit-content; padding-bottom: 10px; margin-top: 40px; }
+.overmij p { font-size: 16px !important; color: #000 !important; width: 70%; }
+.overmij .knop { margin-top: 20px; display: inline-block; padding: 20px 40px; background-color: #fff; color: #000; text-align: center; border: 1px solid #000; border-radius: 5px; text-decoration: none; font-size: 18px; font-weight: bold; transition: background-color 0.3s ease; }
+.overmij .knop:hover { background-color: transparent; }
+
+/* Tablet CSS */
+@media only screen and (max-width: 768px) {
+    .overmij p { width: 100%; }
+    .overmij h1 { margin-top: 0px; }
+    .overmij .knop { margin-bottom: 50px; }
+    .overmij-weg { display: none !important; }
+}
+
+@media only screen and (max-width: 426px) {
+    .overmij p { width: 100%; }
+    .overmij h1 { margin-top: 0px; }
+    .overmij .knop { margin-bottom: 50px; }
+    .overmij-weg { display: none !important; }
+}

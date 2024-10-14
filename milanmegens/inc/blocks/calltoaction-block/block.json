@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "name": "acf/calltoaction-block",
+    "title": "call to action Block",
+    "category": "formatting",
+    "icon": "star",
+    "description": "Milan's call to action block",
+    "keywords": ["calltoaction", "horizontal", "werk"],
+    "version": "1.0.0",
+    "supports": {
+        "align": ["wide"]
+    },
+    "textdomain": "basematic",
+    "script": [""],
+    "style": ["file:assets/styles/front-end.css"],
+    "render": "inc/blocks/calltoaction-block/calltoaction-block.php",
+
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "inc/blocks/calltoaction-block/calltoaction-block.php"
+    }
+}

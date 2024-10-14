@@ -1,0 +1,26 @@
+:root {
+	--width-base: 1288px;
+	--white-color: #fff;
+	--black-color: #000;
+	--orange-color: #f97c15;
+	--green-color: #005f5f;
+	--font-dark-grey: #3c4b5a;
+	--base-duration: all 0.3s;
+	--font-family-base: 'Lexend', sans-serif;
+	--font-family-roboto: 'Roboto', sans-serif;
+	--font-family-abeezee: 'ABeeZee', sans-serif;
+	--font-family-nunito: 'Nunito Sans', sans-serif;
+	--font-family-icon: 'icomoon';
+	--font-size-base: 15px;
+	--line-height-base: 1.8;
+	--line-height-heading: 1.2;
+	--font-size-h1: 34px;
+	--font-size-h2: 32px;
+	--font-size-h3: 24px;
+	--font-size-h4: 16px;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-bold: 700;
+	--w-100: 100%;
+	--h-100: 100%;
+}

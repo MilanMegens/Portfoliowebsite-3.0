@@ -1,0 +1,24 @@
+.projecten { cursor: pointer; display: flex; flex-direction: row; justify-content: space-between; align-items: end; padding-bottom: 20px; padding-top: 20px; padding-left: 120px;  padding-right: 120px; border-bottom: 1px solid #C1C1C1 !important; transition: padding 0.5s ease, color 0.5s ease; }
+.projecten:hover { padding-left: 80px; padding-right: 80px; }
+.projecten:hover h1, .projecten:hover p { color: #000 !important; transition: color 0.3s ease; }
+.projecten h1 { margin: 0; font-size: 120px; color: #838383; }
+.projecten p { margin: 0; margin-bottom: 5px; font-size: 20px !important; color: #838383;}
+
+@media (max-width: 768px) {
+    .projecten { padding-right: 70px; padding-left: 80px; }
+    .projecten h1, .projecten p { color: #000 !important; }
+    .projecten h1 { font-size: 80px; }
+    .projecten p { font-size: 16px !important; }
+}
+
+@media (max-width: 426px) {
+    .projecten { padding-right: 40px; padding-left: 40px; }
+    .projecten h1, .projecten p { color: #000 !important; }
+    .projecten h1 { font-size: 30px; }
+    .projecten p { font-size: 10px !important; margin: 0 !important; }
+}
+
+@media (max-width: 320px) {
+    .projecten h1 { font-size: 20px; }
+    .projecten p { font-size: 10px !important; margin: 0 !important; }
+}

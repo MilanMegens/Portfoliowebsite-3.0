@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "name": "acf/voorstelrondje-block",
+    "title": "voorstelrondje",
+    "category": "id",
+    "description": "Een super tof mooi voorstelrondje blok",
+    "keywords": ["voorstelrondje", "horizontal", "werk"],
+    "version": "1.0.0",
+    "supports": {
+        "align": ["wide"]
+    },
+    "textdomain": "basematic",
+    "script": [""],
+    "style": ["file:assets/styles/front-end.css"],
+    "render": "inc/blocks/voorstelrondje-block/voorstelrondje-block.php",
+
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "inc/blocks/voorstelrondje-block/voorstelrondje-block.php"
+    }
+}

@@ -1,0 +1,20 @@
+.voorstelrondje h2 { font-size: 22px; color: #808080; margin-top: 100px; }
+.voorstelrondje h1 { font-size: 25px; font-weight: bold; margin-bottom: 30px; margin-top: 30px; }
+.voorstelrondje p { font-size: 16px !important; color: #000 !important; width: 60%; margin-bottom: 50px; }
+.voorstelrondje .socials h3 { margin: 0; font-size: 30px; }
+.voorstelrondje .socials { padding-bottom: 15px; }
+.voorstelrondje .socials .icons { display: flex; flex-direction: row; gap: 10px; }
+.voorstelrondje .socials .icons img { height: 40px; width: auto; }
+.voorstelrondje .socials { display: flex; flex-direction: row; align-items: end ; border-bottom: 2px solid #000; gap: 50px; width: fit-content; }
+
+/* Tablet CSS */
+@media only screen and (max-width: 768px) {
+    .voorstelrondje h2 { margin-top: 0px; }
+    .voorstelrondje p { width: 100%; }
+    .voorstelrondje .socials { display: none; }
+}
+
+@media only screen and (max-width: 426px) {
+    .voorstelrondje h2 { margin-top: 0px; }
+    .voorstelrondje p { width: 100%; }
+}

@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "name": "acf/customkoptekst-block",
+    "title": "customkoptekst",
+    "category": "id",
+    "description": "Een super tof mooi customkoptekst blok",
+    "keywords": ["customkoptekst", "horizontal", "werk"],
+    "version": "1.0.0",
+    "supports": {
+        "align": ["wide"]
+    },
+    "textdomain": "basematic",
+    "script": [""],
+    "style": ["file:assets/styles/front-end.css"],
+    "render": "inc/blocks/customkoptekst-block/customkoptekst-block.php",
+
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "inc/blocks/customkoptekst-block/customkoptekst-block.php"
+    }
+}

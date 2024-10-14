@@ -1,0 +1,45 @@
+{
+    "key": "group_67078ad6a4e2f",
+    "title": "Post Type - Case Studies",
+    "fields": [
+        {
+            "key": "field_67078ad6b345a",
+            "label": "Small description",
+            "name": "small_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Small description: shown within case slider",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 4,
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "case-study"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1728552087
+}

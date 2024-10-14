@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "name": "acf/referentie-block",
+    "title": "referentie",
+    "category": "id",
+    "description": "Een super tof mooi referentie blok",
+    "keywords": ["referentie", "horizontal", "werk"],
+    "version": "1.0.0",
+    "supports": {
+        "align": ["wide"]
+    },
+    "textdomain": "basematic",
+    "script": [""],
+    "style": ["file:assets/styles/front-end.css"],
+    "render": "inc/blocks/referentie-block/referentie-block.php",
+
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "inc/blocks/referentie-block/referentie-block.php"
+    }
+}
